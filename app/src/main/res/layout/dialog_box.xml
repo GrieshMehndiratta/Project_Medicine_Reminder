@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medicine"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/TextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Date" />
+
+    <Button
+        android:id="@+id/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/TextTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Time" />
+
+    <Button
+        android:id="@+id/time_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time" />
+
+</LinearLayout>
